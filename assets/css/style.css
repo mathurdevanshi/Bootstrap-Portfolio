@@ -3,7 +3,7 @@
 }
 
 body{
-    background: url('/Users/devanshimathur/Desktop/Programming BootCamp/Homework:Groupwork/Homework1Correction/white-waves.png');
+    background: url('/Users/devanshimathur/Desktop/Programming BootCamp/Responsive-Portfolio/assets/images/white-waves.png');
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 960px;
+    max-width: 10000px;
     margin: 0 auto;
     clear: both;
 }
@@ -71,7 +71,7 @@ h2,h3{
 
 nav{
     float: right;
-    margin-top: 25px;
+    margin-top: 25    px;
 }
 
 nav a{
@@ -96,7 +96,7 @@ nav a:first-child{
 .main-section{
     background: #fff;
     padding: 30px;
-    margin: 0 0 40px 0;
+    margin: 0 0 40px 100px;
     width: 100%;
     max-width: 650px;
     float: left;
@@ -122,6 +122,7 @@ nav a:first-child{
     float: right;
     border: 1px solid #ddd;
     margin-bottom: 20px;
+    margin-right: 100px;
 }
 
 h3,.sidebar,h2{
@@ -223,4 +224,10 @@ input [type=submit]{
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 640px){
+    .auth-image{
+        width:250px;
+    }
 }
