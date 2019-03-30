@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
 }
 
@@ -113,7 +113,7 @@ nav a:first-child{
     clear: both;
 }
 
-/*sidebar*/ 
+/* sidebar */
 .sidebar{
     background: #fff;
     padding: 30px;
@@ -129,7 +129,7 @@ h3,.sidebar,h2{
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     line-height: 22px;
-}
+} 
 
 .social{
     width: 62px;
@@ -145,6 +145,7 @@ h3,.sidebar,h2{
 /*footer*/
 footer{
     background: #666;
+    width: 100%;
     color: #fff;
     padding: 30px;
     clear: both;
